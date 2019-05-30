@@ -1,15 +1,15 @@
 
-* The sidebar menu */
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
+  height: 1936.78px; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: #white; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 5px;
+  float: left;
 
 }
 
@@ -64,5 +64,31 @@ position:
 }
 
 .container {
-  margin-left: 0;
+  margin-left: 160px;
+
+}
+body{
+  height: fill;
+  width: fill;
+}
+.row{
+margin-top: 200px;
+
+}
+#scarlett{
+  height: 179px;
+  width: 120px;
+  float: left;
+}
+
+.column {
+  height: 500px;
+  width: 500px;
+
+}
+h3{
+  font-size: 17px;
+}
+p{
+  font-size: 14px;
 }
